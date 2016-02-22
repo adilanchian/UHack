@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2ED8081C79C0CF008162DA /* InterfaceControllerFight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ED8071C79C0CF008162DA /* InterfaceControllerFight.swift */; };
+		DD2ED80A1C7A10F7008162DA /* InterfaceControllerFetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ED8091C7A10F7008162DA /* InterfaceControllerFetal.swift */; };
+		DD2ED80C1C7A12C5008162DA /* InterfaceControllerHug.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2ED80B1C7A12C5008162DA /* InterfaceControllerHug.swift */; };
+		DDF441521C7998A3004994EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF441511C7998A3004994EB /* AppDelegate.swift */; };
+		DDF441541C7998A3004994EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF441531C7998A3004994EB /* ViewController.swift */; };
+		DDF441571C7998A3004994EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF441551C7998A3004994EB /* Main.storyboard */; };
+		DDF441591C7998A3004994EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF441581C7998A3004994EB /* Assets.xcassets */; };
+		DDF4415C1C7998A3004994EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF4415A1C7998A3004994EB /* LaunchScreen.storyboard */; };
+		DDF441671C7998A3004994EB /* The_ForestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF441661C7998A3004994EB /* The_ForestTests.swift */; };
+		DDF441721C7998A3004994EB /* The_ForestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF441711C7998A3004994EB /* The_ForestUITests.swift */; };
+		DDF441771C7998A3004994EB /* The Forest WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DDF441761C7998A3004994EB /* The Forest WatchKit App.app */; };
+		DDF4417D1C7998A3004994EB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF4417B1C7998A3004994EB /* Interface.storyboard */; };
+		DDF4417F1C7998A3004994EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF4417E1C7998A3004994EB /* Assets.xcassets */; };
+		DDF441861C7998A3004994EB /* The Forest WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DDF441851C7998A3004994EB /* The Forest WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DDF4418D1C7998A3004994EB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF4418C1C7998A3004994EB /* InterfaceController.swift */; };
+		DDF4418F1C7998A3004994EB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF4418E1C7998A3004994EB /* ExtensionDelegate.swift */; };
+		DDF441911C7998A3004994EB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF441901C7998A3004994EB /* NotificationController.swift */; };
+		DDF441931C7998A3004994EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF441921C7998A3004994EB /* Assets.xcassets */; };
+		DDF441A91C799A40004994EB /* InterfaceController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF441A81C799A40004994EB /* InterfaceController2.swift */; };
+		DDF441AD1C799C20004994EB /* InterfaceControllerLR.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF441AC1C799C20004994EB /* InterfaceControllerLR.swift */; };
+		DDF441AF1C79A0D9004994EB /* InterfaceControllerAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF441AE1C79A0D9004994EB /* InterfaceControllerAnimal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF441631C7998A3004994EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF441461C7998A3004994EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF4414D1C7998A3004994EB;
+			remoteInfo = "The Forest";
+		};
+		DDF4416E1C7998A3004994EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF441461C7998A3004994EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF4414D1C7998A3004994EB;
+			remoteInfo = "The Forest";
+		};
+		DDF441781C7998A3004994EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF441461C7998A3004994EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF441751C7998A3004994EB;
+			remoteInfo = "The Forest WatchKit App";
+		};
+		DDF441871C7998A3004994EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF441461C7998A3004994EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF441841C7998A3004994EB;
+			remoteInfo = "The Forest WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDF4419A1C7998A3004994EB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DDF441861C7998A3004994EB /* The Forest WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF4419E1C7998A3004994EB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DDF441771C7998A3004994EB /* The Forest WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD2ED8071C79C0CF008162DA /* InterfaceControllerFight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerFight.swift; sourceTree = "<group>"; };
+		DD2ED8091C7A10F7008162DA /* InterfaceControllerFetal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerFetal.swift; sourceTree = "<group>"; };
+		DD2ED80B1C7A12C5008162DA /* InterfaceControllerHug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerHug.swift; sourceTree = "<group>"; };
+		DDF4414E1C7998A3004994EB /* The Forest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Forest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF441511C7998A3004994EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDF441531C7998A3004994EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDF441561C7998A3004994EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDF441581C7998A3004994EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF4415B1C7998A3004994EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDF4415D1C7998A3004994EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF441621C7998A3004994EB /* The ForestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The ForestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF441661C7998A3004994EB /* The_ForestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_ForestTests.swift; sourceTree = "<group>"; };
+		DDF441681C7998A3004994EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF4416D1C7998A3004994EB /* The ForestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The ForestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF441711C7998A3004994EB /* The_ForestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_ForestUITests.swift; sourceTree = "<group>"; };
+		DDF441731C7998A3004994EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF441761C7998A3004994EB /* The Forest WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Forest WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF4417C1C7998A3004994EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DDF4417E1C7998A3004994EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF441801C7998A3004994EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF441851C7998A3004994EB /* The Forest WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "The Forest WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF4418B1C7998A3004994EB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DDF4418C1C7998A3004994EB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DDF4418E1C7998A3004994EB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DDF441901C7998A3004994EB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DDF441921C7998A3004994EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF441941C7998A3004994EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF441A81C799A40004994EB /* InterfaceController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController2.swift; sourceTree = "<group>"; };
+		DDF441AC1C799C20004994EB /* InterfaceControllerLR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerLR.swift; sourceTree = "<group>"; };
+		DDF441AE1C79A0D9004994EB /* InterfaceControllerAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerAnimal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF4414B1C7998A3004994EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF4415F1C7998A3004994EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF4416A1C7998A3004994EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF441821C7998A3004994EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDF441451C7998A3004994EB = {
+			isa = PBXGroup;
+			children = (
+				DDF441501C7998A3004994EB /* The Forest */,
+				DDF441651C7998A3004994EB /* The ForestTests */,
+				DDF441701C7998A3004994EB /* The ForestUITests */,
+				DDF4417A1C7998A3004994EB /* The Forest WatchKit App */,
+				DDF441891C7998A3004994EB /* The Forest WatchKit Extension */,
+				DDF4414F1C7998A3004994EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF4414F1C7998A3004994EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF4414E1C7998A3004994EB /* The Forest.app */,
+				DDF441621C7998A3004994EB /* The ForestTests.xctest */,
+				DDF4416D1C7998A3004994EB /* The ForestUITests.xctest */,
+				DDF441761C7998A3004994EB /* The Forest WatchKit App.app */,
+				DDF441851C7998A3004994EB /* The Forest WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF441501C7998A3004994EB /* The Forest */ = {
+			isa = PBXGroup;
+			children = (
+				DDF441511C7998A3004994EB /* AppDelegate.swift */,
+				DDF441531C7998A3004994EB /* ViewController.swift */,
+				DDF441551C7998A3004994EB /* Main.storyboard */,
+				DDF441581C7998A3004994EB /* Assets.xcassets */,
+				DDF4415A1C7998A3004994EB /* LaunchScreen.storyboard */,
+				DDF4415D1C7998A3004994EB /* Info.plist */,
+			);
+			path = "The Forest";
+			sourceTree = "<group>";
+		};
+		DDF441651C7998A3004994EB /* The ForestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF441661C7998A3004994EB /* The_ForestTests.swift */,
+				DDF441681C7998A3004994EB /* Info.plist */,
+			);
+			path = "The ForestTests";
+			sourceTree = "<group>";
+		};
+		DDF441701C7998A3004994EB /* The ForestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF441711C7998A3004994EB /* The_ForestUITests.swift */,
+				DDF441731C7998A3004994EB /* Info.plist */,
+			);
+			path = "The ForestUITests";
+			sourceTree = "<group>";
+		};
+		DDF4417A1C7998A3004994EB /* The Forest WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DDF4417B1C7998A3004994EB /* Interface.storyboard */,
+				DDF4417E1C7998A3004994EB /* Assets.xcassets */,
+				DDF441801C7998A3004994EB /* Info.plist */,
+			);
+			path = "The Forest WatchKit App";
+			sourceTree = "<group>";
+		};
+		DDF441891C7998A3004994EB /* The Forest WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DDF4418C1C7998A3004994EB /* InterfaceController.swift */,
+				DDF4418E1C7998A3004994EB /* ExtensionDelegate.swift */,
+				DDF441901C7998A3004994EB /* NotificationController.swift */,
+				DDF441921C7998A3004994EB /* Assets.xcassets */,
+				DDF441941C7998A3004994EB /* Info.plist */,
+				DDF4418A1C7998A3004994EB /* Supporting Files */,
+				DDF441A81C799A40004994EB /* InterfaceController2.swift */,
+				DDF441AC1C799C20004994EB /* InterfaceControllerLR.swift */,
+				DDF441AE1C79A0D9004994EB /* InterfaceControllerAnimal.swift */,
+				DD2ED8071C79C0CF008162DA /* InterfaceControllerFight.swift */,
+				DD2ED8091C7A10F7008162DA /* InterfaceControllerFetal.swift */,
+				DD2ED80B1C7A12C5008162DA /* InterfaceControllerHug.swift */,
+			);
+			path = "The Forest WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DDF4418A1C7998A3004994EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF4418B1C7998A3004994EB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF4414D1C7998A3004994EB /* The Forest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF4419F1C7998A3004994EB /* Build configuration list for PBXNativeTarget "The Forest" */;
+			buildPhases = (
+				DDF4414A1C7998A3004994EB /* Sources */,
+				DDF4414B1C7998A3004994EB /* Frameworks */,
+				DDF4414C1C7998A3004994EB /* Resources */,
+				DDF4419E1C7998A3004994EB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF441791C7998A3004994EB /* PBXTargetDependency */,
+			);
+			name = "The Forest";
+			productName = "The Forest";
+			productReference = DDF4414E1C7998A3004994EB /* The Forest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDF441611C7998A3004994EB /* The ForestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF441A21C7998A3004994EB /* Build configuration list for PBXNativeTarget "The ForestTests" */;
+			buildPhases = (
+				DDF4415E1C7998A3004994EB /* Sources */,
+				DDF4415F1C7998A3004994EB /* Frameworks */,
+				DDF441601C7998A3004994EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF441641C7998A3004994EB /* PBXTargetDependency */,
+			);
+			name = "The ForestTests";
+			productName = "The ForestTests";
+			productReference = DDF441621C7998A3004994EB /* The ForestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDF4416C1C7998A3004994EB /* The ForestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF441A51C7998A3004994EB /* Build configuration list for PBXNativeTarget "The ForestUITests" */;
+			buildPhases = (
+				DDF441691C7998A3004994EB /* Sources */,
+				DDF4416A1C7998A3004994EB /* Frameworks */,
+				DDF4416B1C7998A3004994EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF4416F1C7998A3004994EB /* PBXTargetDependency */,
+			);
+			name = "The ForestUITests";
+			productName = "The ForestUITests";
+			productReference = DDF4416D1C7998A3004994EB /* The ForestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DDF441751C7998A3004994EB /* The Forest WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF4419B1C7998A3004994EB /* Build configuration list for PBXNativeTarget "The Forest WatchKit App" */;
+			buildPhases = (
+				DDF441741C7998A3004994EB /* Resources */,
+				DDF4419A1C7998A3004994EB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF441881C7998A3004994EB /* PBXTargetDependency */,
+			);
+			name = "The Forest WatchKit App";
+			productName = "The Forest WatchKit App";
+			productReference = DDF441761C7998A3004994EB /* The Forest WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DDF441841C7998A3004994EB /* The Forest WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF441971C7998A3004994EB /* Build configuration list for PBXNativeTarget "The Forest WatchKit Extension" */;
+			buildPhases = (
+				DDF441811C7998A3004994EB /* Sources */,
+				DDF441821C7998A3004994EB /* Frameworks */,
+				DDF441831C7998A3004994EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Forest WatchKit Extension";
+			productName = "The Forest WatchKit Extension";
+			productReference = DDF441851C7998A3004994EB /* The Forest WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF441461C7998A3004994EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alec Dilanchian";
+				TargetAttributes = {
+					DDF4414D1C7998A3004994EB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3XYA9C7RBA;
+					};
+					DDF441611C7998A3004994EB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3XYA9C7RBA;
+						TestTargetID = DDF4414D1C7998A3004994EB;
+					};
+					DDF4416C1C7998A3004994EB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3XYA9C7RBA;
+						TestTargetID = DDF4414D1C7998A3004994EB;
+					};
+					DDF441751C7998A3004994EB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3XYA9C7RBA;
+					};
+					DDF441841C7998A3004994EB = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3XYA9C7RBA;
+					};
+				};
+			};
+			buildConfigurationList = DDF441491C7998A3004994EB /* Build configuration list for PBXProject "The Forest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF441451C7998A3004994EB;
+			productRefGroup = DDF4414F1C7998A3004994EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF4414D1C7998A3004994EB /* The Forest */,
+				DDF441611C7998A3004994EB /* The ForestTests */,
+				DDF4416C1C7998A3004994EB /* The ForestUITests */,
+				DDF441751C7998A3004994EB /* The Forest WatchKit App */,
+				DDF441841C7998A3004994EB /* The Forest WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF4414C1C7998A3004994EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF4415C1C7998A3004994EB /* LaunchScreen.storyboard in Resources */,
+				DDF441591C7998A3004994EB /* Assets.xcassets in Resources */,
+				DDF441571C7998A3004994EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF441601C7998A3004994EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF4416B1C7998A3004994EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF441741C7998A3004994EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF4417F1C7998A3004994EB /* Assets.xcassets in Resources */,
+				DDF4417D1C7998A3004994EB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF441831C7998A3004994EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF441931C7998A3004994EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF4414A1C7998A3004994EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF441541C7998A3004994EB /* ViewController.swift in Sources */,
+				DDF441521C7998A3004994EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF4415E1C7998A3004994EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF441671C7998A3004994EB /* The_ForestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF441691C7998A3004994EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF441721C7998A3004994EB /* The_ForestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF441811C7998A3004994EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF441A91C799A40004994EB /* InterfaceController2.swift in Sources */,
+				DDF441AD1C799C20004994EB /* InterfaceControllerLR.swift in Sources */,
+				DD2ED80A1C7A10F7008162DA /* InterfaceControllerFetal.swift in Sources */,
+				DDF441911C7998A3004994EB /* NotificationController.swift in Sources */,
+				DDF4418F1C7998A3004994EB /* ExtensionDelegate.swift in Sources */,
+				DDF4418D1C7998A3004994EB /* InterfaceController.swift in Sources */,
+				DDF441AF1C79A0D9004994EB /* InterfaceControllerAnimal.swift in Sources */,
+				DD2ED80C1C7A12C5008162DA /* InterfaceControllerHug.swift in Sources */,
+				DD2ED8081C79C0CF008162DA /* InterfaceControllerFight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDF441641C7998A3004994EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF4414D1C7998A3004994EB /* The Forest */;
+			targetProxy = DDF441631C7998A3004994EB /* PBXContainerItemProxy */;
+		};
+		DDF4416F1C7998A3004994EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF4414D1C7998A3004994EB /* The Forest */;
+			targetProxy = DDF4416E1C7998A3004994EB /* PBXContainerItemProxy */;
+		};
+		DDF441791C7998A3004994EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF441751C7998A3004994EB /* The Forest WatchKit App */;
+			targetProxy = DDF441781C7998A3004994EB /* PBXContainerItemProxy */;
+		};
+		DDF441881C7998A3004994EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF441841C7998A3004994EB /* The Forest WatchKit Extension */;
+			targetProxy = DDF441871C7998A3004994EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDF441551C7998A3004994EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF441561C7998A3004994EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF4415A1C7998A3004994EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF4415B1C7998A3004994EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF4417B1C7998A3004994EB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF4417C1C7998A3004994EB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF441951C7998A3004994EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDF441961C7998A3004994EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF441981C7998A3004994EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The Forest WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-Forest.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		DDF441991C7998A3004994EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The Forest WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-Forest.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		DDF4419C1C7998A3004994EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = The_Forest_WatchKit_Extension;
+				INFOPLIST_FILE = "The Forest WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-Forest.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		DDF4419D1C7998A3004994EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = The_Forest_WatchKit_Extension;
+				INFOPLIST_FILE = "The Forest WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-Forest.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		DDF441A01C7998A3004994EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Forest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-Forest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDF441A11C7998A3004994EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Forest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-Forest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDF441A31C7998A3004994EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The ForestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-ForestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Forest.app/The Forest";
+			};
+			name = Debug;
+		};
+		DDF441A41C7998A3004994EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The ForestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-ForestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Forest.app/The Forest";
+			};
+			name = Release;
+		};
+		DDF441A61C7998A3004994EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The ForestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-ForestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Forest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDF441A71C7998A3004994EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The ForestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "adilanchian.The-ForestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Forest";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF441491C7998A3004994EB /* Build configuration list for PBXProject "The Forest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF441951C7998A3004994EB /* Debug */,
+				DDF441961C7998A3004994EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF441971C7998A3004994EB /* Build configuration list for PBXNativeTarget "The Forest WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF441981C7998A3004994EB /* Debug */,
+				DDF441991C7998A3004994EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF4419B1C7998A3004994EB /* Build configuration list for PBXNativeTarget "The Forest WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF4419C1C7998A3004994EB /* Debug */,
+				DDF4419D1C7998A3004994EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF4419F1C7998A3004994EB /* Build configuration list for PBXNativeTarget "The Forest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF441A01C7998A3004994EB /* Debug */,
+				DDF441A11C7998A3004994EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF441A21C7998A3004994EB /* Build configuration list for PBXNativeTarget "The ForestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF441A31C7998A3004994EB /* Debug */,
+				DDF441A41C7998A3004994EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF441A51C7998A3004994EB /* Build configuration list for PBXNativeTarget "The ForestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF441A61C7998A3004994EB /* Debug */,
+				DDF441A71C7998A3004994EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDF441461C7998A3004994EB /* Project object */;
+}

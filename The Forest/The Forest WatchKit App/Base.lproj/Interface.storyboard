@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="The_Forest_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="133.5" height="51.5" alignment="left" text="Welcome To.... The Forest" textAlignment="center" numberOfLines="5" id="0JZ-98-Lc6">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <button width="1" height="95.5" alignment="left" backgroundImage="deer" id="wBq-VF-LkX">
+                            <connections>
+                                <segue destination="bYh-iT-Tjf" kind="push" id="GuF-HI-2O3"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="136" y="331"/>
+        </scene>
+        <!--Interface Controller2-->
+        <scene sceneID="fLQ-PH-sBw">
+            <objects>
+                <controller id="bYh-iT-Tjf" customClass="InterfaceController2" customModule="The_Forest_WatchKit_Extension">
+                    <items>
+                        <label width="135.5" height="74.5" alignment="center" text="You have entered the forest. You begin to approach a fork in the road." textAlignment="center" numberOfLines="5" id="XOx-Vp-Ukv">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <button width="1" alignment="left" title="Go left" id="CSJ-Oq-FRn">
+                            <connections>
+                                <segue destination="7Nx-OJ-7ag" kind="push" id="8ts-p3-0DI"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Go right" id="et5-hK-WzR">
+                            <connections>
+                                <segue destination="7Nx-OJ-7ag" kind="push" id="SpP-u9-KoZ"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Turn around" id="78f-8L-pG5">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="QBc-Ok-Xzc"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="374" y="345"/>
+        </scene>
+        <!--Interface ControllerLR-->
+        <scene sceneID="cTb-Bt-vHW">
+            <objects>
+                <controller id="7Nx-OJ-7ag" customClass="InterfaceControllerLR" customModule="The_Forest_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="80.5" alignment="center" textAlignment="center" numberOfLines="5" id="k1V-WE-ifJ"/>
+                        <button width="1" alignment="left" title="Take weapon" id="r8l-w9-5dL">
+                            <connections>
+                                <segue destination="1FK-Qq-SQK" kind="push" identifier="weaponPass" id="k3A-ZJ-Obu"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Leave it behind" id="jAu-dZ-oo5">
+                            <connections>
+                                <segue destination="1FK-Qq-SQK" kind="push" id="kZL-Kk-u83"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Self harm" id="Rdh-pk-Y2E">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="obP-mP-Lh2"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="bodyLabel" destination="k1V-WE-ifJ" id="8H1-iH-539"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="609" y="345"/>
+        </scene>
+        <!--weaponTrans-->
+        <scene sceneID="ZK8-tI-nhd">
+            <objects>
+                <controller identifier="weaponTrans" id="1FK-Qq-SQK" customClass="InterfaceControllerAnimal" customModule="The_Forest_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="82.5" alignment="center" textAlignment="center" numberOfLines="5" id="Y3n-gJ-DBf"/>
+                        <button width="1" alignment="left" title="Stand and fight" id="Aoh-vB-GUg">
+                            <connections>
+                                <segue destination="tlO-mR-aPM" kind="push" id="JID-4h-h6W"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Assume the fetal position" id="hJa-y8-GU9">
+                            <connections>
+                                <segue destination="c1K-o5-j6P" kind="push" id="9AV-we-59W"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Give it a hug" id="avL-aR-CgS">
+                            <connections>
+                                <segue destination="Tv6-5K-loq" kind="push" id="z23-dU-2Va"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="bodyLabel" destination="Y3n-gJ-DBf" id="zLe-H9-cX8"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="842" y="344"/>
+        </scene>
+        <!--Interface Controller Hug-->
+        <scene sceneID="EZv-sA-wK0">
+            <objects>
+                <controller id="Tv6-5K-loq" customClass="InterfaceControllerHug" customModule="The_Forest_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="You have gained a new companion!" textAlignment="center" numberOfLines="5" id="xIl-9J-S5A"/>
+                        <button width="1" height="106.5" alignment="left" backgroundImage="hug" id="325-bg-eLz">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="Fb2-H2-8Tj"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1056" y="690"/>
+        </scene>
+        <!--Interface Controller Fight-->
+        <scene sceneID="FK9-dg-HYm">
+            <objects>
+                <controller id="tlO-mR-aPM" customClass="InterfaceControllerFight" customModule="The_Forest_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" textAlignment="center" id="yMF-3K-SfM"/>
+                        <label width="132.5" alignment="center" textAlignment="center" id="YWK-Ur-SkO"/>
+                        <label width="136" alignment="center" textAlignment="center" numberOfLines="5" id="Zwu-qR-HWM"/>
+                        <label width="136" height="25.5" alignment="center" textAlignment="center" numberOfLines="5" id="yJd-tZ-9A3"/>
+                        <button width="1" height="108.5" alignment="left" backgroundImage="kangaroo-street-fight" id="JO8-bg-HYG">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="cGP-kB-Tt5"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="bodyImage" destination="JO8-bg-HYG" id="2Jh-TH-Ayw"/>
+                        <outlet property="bodyLabel" destination="yJd-tZ-9A3" id="QSo-AC-f8F"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1045" y="150"/>
+        </scene>
+        <!--Interface Controller Fetal-->
+        <scene sceneID="E2C-Aj-OCx">
+            <objects>
+                <controller id="c1K-o5-j6P" customClass="InterfaceControllerFetal" customModule="The_Forest_WatchKit_Extension">
+                    <items>
+                        <label height="24.5" alignment="center" text="Mauled Alive." textAlignment="center" id="uUP-px-ens">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <button width="1" height="121.5" alignment="left" backgroundImage="mauled" id="4tj-Gc-rpD">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="TXe-82-bap"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1246" y="294"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="1045" y="-75"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="k3A-ZJ-Obu"/>
+        <segue reference="SpP-u9-KoZ"/>
+        <segue reference="cGP-kB-Tt5"/>
+    </inferredMetricsTieBreakers>
+</document>
