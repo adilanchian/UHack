@@ -9,7 +9,5 @@ Description:<br>
 This is a choose your own adventure game that takes you through a forest. As you
 navigate through the forest you will have to make decisions based on the scenarios
 given<br>
-TEST
-Test 2
 Developed by:<br>
 Alec Dilanchian and Bryan Huynh
